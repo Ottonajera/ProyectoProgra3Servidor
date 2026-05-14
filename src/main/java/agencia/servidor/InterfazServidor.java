@@ -112,7 +112,7 @@ public class InterfazServidor extends JFrame {
         panelContenedorPCs.add(cajaServidor);
         panelContenedorPCs.add(Box.createRigidArea(new Dimension(0, 15)));
         
-        agregarCajaFija("192.168.1.22", "PC2 - Registro");
+        agregarCajaFija("172.20.10.14", "PC2 - Registro");
         agregarCajaFija("172.20.10.6", "PC3 - Agente General"); 
         agregarCajaFija("172.20.10.12", "PC4 - Agente Prioritario");
         
